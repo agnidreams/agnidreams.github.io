@@ -1,0 +1,16 @@
+{
+    "navlinks" : [
+        {
+            "name": "Home",
+            "path": ""
+        },
+        {
+            "name": "About",
+            "path": "about"
+        },
+        {
+            "name": "Hello",
+            "path": "hello"
+        }
+    ]
+}

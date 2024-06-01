@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    
+  {% include navbar.html %}
+  <!-- END nav -->
+  
+  <div class="block-31" style="position: relative;">
+    <div class="owl-carousel loop-block-31 ">
+      <div class="block-30 block-30-sm item" style="background-image: url('assets/images/cover.jpeg');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-7">
+              <h2 class="text-white display-3 font-weight-bold mb-2">AGNI DREAMS</h2>
+              <h4 class="text-white display-3 font-weight-normal mb-5">We Dream to Light up Millions of Dreams.</h2>
+              <p style="display: inline-block;">
+                <a href="https://youtu.be/7E-cwdnsiow"  data-fancybox class="ftco-play-video d-flex">
+                  <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/7E-cwdnsiow?si=-vhATTvsp5jSJGNm&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                  <!-- <span class="play-icon-wrap align-self-center mr-4"><span class="ion-ios-play"></span></span> 
+                  <span class="align-self-center">Watch Video</span> -->
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <div class="site-section section-counter">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-md-6 pr-5">
+          <div class="block-48">
+              <span class="block-48-text-1">Served Over</span>
+              <div class="block-48-counter ftco-number" data-number="{{ site.data.stats.served_count }}">0</div>
+              <span class="block-48-text-1 mb-4 d-block">Students in {{ site.data.stats.district_count }} Districts</span>
+              <p class="mb-0"><a href="#" class="btn btn-white px-3 py-2">View Our Program</a></p>
+            </div>
+        </div> -->
+
+        <div class="col-md-6 welcome-text">
+          <h2 class="display-4 mb-3">{{ site.data.about.title }}</h2>
+          <p class="lead">{{ site.data.about.content }}</p>
+          <p class="mb-4">{{ site.data.about.notes }}</p>
+          <!-- <p class="mb-0"><a href="#" class="btn btn-primary px-3 py-2">Learn More</a></p> -->
+        </div>
+
+        
+        <div class="col-md-6 welcome-text">
+          <h2 class="display-4 mb-3 text-center">Apply Now!</h2>
+          {% include scholarship.html %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="site-section border-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="media block-6">
+            <div class="icon"><span class="ion-ios-bulb"></span></div>
+            <div class="media-body">
+              <h3 class="heading">{{ site.data.about.vision.title }}</h3>
+              <p>{{ site.data.about.vision.statement }}</p>
+              <p><a href="{{ site.data.about.path }}" class="link-underline">Learn More</a></p>
+            </div>
+          </div>     
+        </div>
+
+        <div class="col-md-8">
+          <div class="media block-6">
+            <div class="icon"><span class="ion-ios-contacts"></span></div>
+            <div class="media-body">
+              <h3 class="heading">{{ site.data.about.mission.title }}</h3>
+              <p>{{ site.data.about.mission.statement }}</p>
+              <p><a href="{{ site.data.about.path }}" class="link-underline">Learn More</a></p>
+            </div>
+          </div>  
+        </div>
+
+        <!-- <div class="col-md-4">
+          <div class="media block-6">
+            <div class="icon"><span class="ion-ios-cash"></span></div>
+            <div class="media-body">
+              <h3 class="heading">{{ site.data.about.donations.title }}</h3>
+              <p>{{ site.data.about.donations.statement }}</p>
+              <p><a href="{{ site.data.about.path }}" class="link-underline">Learn More</a></p>
+            </div>
+          </div> 
+        </div> -->
+
+      </div>
+    </div>
+  </div> <!-- .site-section -->
+
+
+
+  
+
+  <!-- <div class="site-section fund-raisers bg-light">
+    <div class="container">
+      <div class="row mb-3 justify-content-center">
+        <div class="col-md-8 text-center">
+          <h2>Latest Fundraisers</h2>
+          <p class="lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p><a href="#" class="link-underline">View All Fundraisers</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid"> -->
+
+      <!-- <div class="row"> -->
+<!--         
+        <div class="col-md-12 block-11">
+          <div class="nonloop-block-11 owl-carousel">
+
+            <div class="card fundraise-item">
+              <a href="#"><img class="card-img-top" src="assets/images/img_1.jpg" alt="Image placeholder"></a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="#">Water Is Life. Clean Water In Urban Area</a></h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+                <div class="progress custom-progress-success">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+              </div>
+            </div>
+
+            
+            <div class="card fundraise-item">
+              <a href="#"><img class="card-img-top" src="assets/images/img_7.jpg" alt="Image placeholder"></a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="#">Need Shelter for Children in Africa</a></h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+                <div class="progress custom-progress-success">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+              </div>
+            </div>
+            
+            <div class="card fundraise-item">
+              <a href="#"><img class="card-img-top" src="assets/images/img_3.jpg" alt="Image placeholder"></a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="#">Children Needs Education</a></h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+                <div class="progress custom-progress-success">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+              </div>
+            </div>
+
+
+            <div class="card fundraise-item">
+              <a href="#"><img class="card-img-top" src="assets/images/img_4.jpg" alt="Image placeholder"></a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="#">Refugees Needs Food</a></h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+                <div class="progress custom-progress-success">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+              </div>
+            </div>
+
+            
+            <div class="card fundraise-item">
+              <a href="#"><img class="card-img-top" src="assets/images/img_6.jpg" alt="Image placeholder"></a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="#">Voluteer </a></h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+                <div class="progress custom-progress-success">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+              </div>
+            </div>
+            
+            <div class="card fundraise-item">
+              <a href="#"><img class="card-img-top" src="assets/images/img_3.jpg" alt="Image placeholder"></a>
+              <div class="card-body">
+                <h3 class="card-title"><a href="#">Children Needs Food</a></h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <span class="donation-time mb-3 d-block">Last donation 1w ago</span>
+                <div class="progress custom-progress-success">
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 28%" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="fund-raised d-block">$12,000 raised of $30,000</span>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        
+    </div>
+  </div>  -->
+
+  {% include donors.html %}
+
+  {% include joinus.html %}
+
+  {% include footer.html %}   
+
+  {% include foot.html %}
+
+
+
+    
+  </body>
+</html>

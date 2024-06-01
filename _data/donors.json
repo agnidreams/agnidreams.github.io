@@ -1,0 +1,19 @@
+{
+    "donors_list": [
+        {
+            "title": "",
+            "fname": "Madhushan",
+            "lname": "",
+            "profile": "people/madhushan.png",
+            "profession": "Software Engineer",
+            "affiliation": "Enactor Ltd",
+            "start_date": "2024",
+            "end_date": "present",
+            "social": [
+                {"type": "linkedin", "link": "https://www.google.com", "icon": "icon-linkedin-square"},
+                {"type": "facebook", "link": "", "icon": "icon-facebook-square"},
+                {"type": "website", "link": "", "icon": "icon-link"}
+            ]
+        }
+    ]
+}

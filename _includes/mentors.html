@@ -1,0 +1,30 @@
+
+<div class="site-section fund-raisers">
+    <div class="container">
+        <div class="row mb-3 justify-content-center">
+            <div class="col-md-8 text-center">
+                <h2>Our Valuable Mentors</h2>
+                <p class="lead">Agni Dreams is powered by a dedicated team of professionals, passionately committed to supporting our noble cause.</p>
+                <!-- <p class="mb-5"><a href="#" class="link-underline">View All Donations</a></p> -->
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+
+        {% for mentor in site.data.mentors.mentors_list %}
+        <!-- A donor information unit -->
+            <div class="col-md-6 col-lg-3 mb-5">
+                <div class="person-donate text-center">
+                    <img src="assets/images/{{ donor.profile }}" alt="{{ donor.fname }}" class="img-fluid w-50 rounded-circle">
+                    <div class="donate-info">
+                        <h2>{{ mentor.fname }} {{ mentor.lname }}</h2>
+                        <span class="time d-block">{{ mentor.profession }}</span>
+                        <span class="time d-block mb-1">@ {{ mentor.affiliation }}</span>
+                    </div>
+                </div>    
+            </div>
+        {% endfor %}
+
+        </div>
+    </div>
+</div>

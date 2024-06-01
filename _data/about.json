@@ -1,0 +1,29 @@
+{
+    "path": "/about",
+    "title": "Who Are We?",
+    "content": "Welcome to Agni Dreams, a not-for-profit organization dedicated to lighting up the dreams of students. At AD, we believe that every child has the right to an education, regardless of their financial background.",
+    "notes": "Agni Dreams was established with the vision of bridging the gap between aspiration and achievement for students facing financial barriers. By connecting individual professionals with individual students, we ensure that each scholarship recipient receives not just financial support, but also personal mentorship and guidance. Together, we strive to ignite the spark of knowledge and opportunity, transforming dreams into reality.",
+    "mission": {
+        "title": "Our Mission",
+        "statement": "Our mission at Agni Dreams is to empower underprivileged students by providing financial support and mentorship, enabling them to pursue their educational goals and achieve their full potential. We aim to create a community of committed professionals and passionate learners who work together to break the cycle of poverty through education."
+    },
+    "vision": {
+        "title": "Our Vision",
+        "statement": "Our vision is a world where every student can access quality education and achieve their dreams, free from financial barriers."
+    },
+    "donations": {
+        "title": "Our Donation Format",
+        "statement":"Our donation format explanation"
+    },
+    "address": {
+        "no": "191/28",
+        "street": "Srimath Kudarathwatta Mawatha",
+        "town": "Kandy",
+        "country": "Sri Lanka",
+        "postal": 20000
+    },
+    "contact": {
+        "email": "info@agnidreams.org",
+        "phone": "+94 77 9485 724"
+    }
+}
