@@ -10,7 +10,22 @@
             "start_date": "2024",
             "end_date": "present",
             "social": [
-                {"type": "linkedin", "link": "https://www.google.com", "icon": "icon-linkedin-square"},
+                {"type": "linkedin", "link": "https://www.linkedin.com/in/madhushan-ramalingam", "icon": "icon-linkedin-square"},
+                {"type": "facebook", "link": "", "icon": "icon-facebook-square"},
+                {"type": "website", "link": "https://drmadhushan,github.io", "icon": "icon-link"}
+            ]
+        },
+        {
+            "title": "",
+            "fname": "Dhushintha",
+            "lname": "",
+            "profile": "people/dhushintha.jpg",
+            "profession": "Mechanical Engineer",
+            "affiliation": "Enactor Ltd",
+            "start_date": "2024",
+            "end_date": "present",
+            "social": [
+                {"type": "linkedin", "link": "https://www.linkedin.com/in/dhushintha/", "icon": "icon-linkedin-square"},
                 {"type": "facebook", "link": "", "icon": "icon-facebook-square"},
                 {"type": "website", "link": "", "icon": "icon-link"}
             ]

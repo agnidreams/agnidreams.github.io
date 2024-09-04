@@ -1,6 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark ftco_navbar p-0" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img width="15%" src="/assets/images/{{ site.logo_file }}" alt=""></a>
+      <div class="d-flex flex-row">
+        <a class="navbar-brand d-flex flex-row" id="logo-box" href="/">
+          <img width="70px" src="/assets/images/{{ site.logo_file }}" alt="">
+          <!-- <div class="">Agni Dreams</div> -->
+           <div class="d-flex">
+            <div class="align-self-center pt-2">Agni Dreams</div>
+           </div>
+        </a>
+        
+      </div>
       <!-- <a class="navbar-brand" href="index.html">{{ site.title }}</a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span>
@@ -15,3 +24,13 @@
       </div>
     </div>
 </nav>
+<style>
+  #logo-box {
+    background-color:rgb(0, 13, 39); /*whichever you want*/
+    opacity: 0.8; 
+  }
+  #navlink-box {
+    background-color:rgb(0, 13, 39); /*whichever you want*/
+    opacity: 0.8; 
+  }
+</style>
